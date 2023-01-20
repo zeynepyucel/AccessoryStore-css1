@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FFECEF;
+}
+
+ /* ------------------------- Home Sayfasının CSS'i ---------------------------- */
+
+/*
+Navigation bar renklendirilmesi ve dizaynı
+*/
+
+.navigation-bar {
+    overflow: hidden;
+    background-color: #372948;
+    margin: -8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 2px solid transparent;
+}
+
+.navigation-bar a {
+    float: left;
+    color: #FFECEF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navigation-bar a:hover {
+    background-color: #FFCACA;
+    color: #372948;
+  }
+
+  .navigation-bar a:hover {
+    border-bottom: 3px solid #372948;
+  }
+  
+
+  /* 
+  Homepage başlığı için CSS
+  */
+
+  .title-style {
+    color: #372948;
+    text-align: center;
+  }
+
+ /* ------------------------- Products Sayfasının CSS'i ---------------------------- */
+
+ .productTitle {
+    color: #372948;
+ }
+
+ .infoProducts{
+    text-align: center;
+ }
